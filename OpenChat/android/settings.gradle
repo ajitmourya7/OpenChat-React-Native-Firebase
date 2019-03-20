@@ -1,0 +1,3 @@
+rootProject.name = 'OpenChat'
+
+include ':app'
