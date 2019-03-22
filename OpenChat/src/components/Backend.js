@@ -6,12 +6,7 @@ class Backend {
     // initialize Firebase Backend
     constructor() {
         firebase.initializeApp({
-            apiKey: "AIzaSyDiaQCsd6C7IFn-sYoNr9ppUZwFIg4gF9s",
-            authDomain: "rajkot-b4061.firebaseapp.com",
-            databaseURL: "https://rajkot-b4061.firebaseio.com",
-            projectId: "rajkot-b4061",
-            storageBucket: "rajkot-b4061.appspot.com",
-            messagingSenderId: "483459855406"
+            {your api key}
         });
         firebase.auth().onAuthStateChanged((user) => {
             if (user) {
